@@ -95,7 +95,7 @@ const Index = () => {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4 bg-gradient-to-br from-muted/30 to-accent/50">
         <div className="container mx-auto max-w-4xl">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="flex-1">
@@ -196,7 +196,7 @@ const Index = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 px-4 bg-white">
+      <section id="portfolio" className="py-20 px-4 bg-gradient-to-r from-white to-muted/20">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold font-sans mb-4 text-foreground">Портфолио</h3>
@@ -306,7 +306,7 @@ const Index = () => {
               <div className="mt-8">
                 <h5 className="font-semibold mb-4 text-foreground">Быстрая связь</h5>
                 <div className="flex gap-3">
-                  <Button size="lg" className="flex-1">
+                  <Button size="lg" className="flex-1 bg-primary hover:bg-primary/90">
                     <Icon name="MessageCircle" size={18} className="mr-2" />
                     WhatsApp
                   </Button>

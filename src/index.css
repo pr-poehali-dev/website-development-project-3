@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 248 250 252; /* #F8FAFC */
-    --foreground: 30 41 59; /* #1E293B */
+    --background: 255 255 255; /* White */
+    --foreground: 88 28 135; /* Purple #581C87 */
 
     --card: 255 255 255; /* White */
-    --card-foreground: 30 41 59; /* #1E293B */
+    --card-foreground: 88 28 135; /* Purple #581C87 */
 
     --popover: 255 255 255;
-    --popover-foreground: 30 41 59;
+    --popover-foreground: 88 28 135;
 
-    --primary: 37 99 235; /* #2563EB */
+    --primary: 139 92 246; /* Purple #8B5CF6 */
     --primary-foreground: 255 255 255;
 
-    --secondary: 226 232 240; /* #E2E8F0 */
-    --secondary-foreground: 30 41 59;
+    --secondary: 30 58 138; /* Blue #1E3A8A */
+    --secondary-foreground: 255 255 255;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 245 245 255; /* Light purple/blue tint #F5F5FF */
+    --muted-foreground: 126 34 206; /* Purple #7E22CE */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 238 242 255; /* Very light blue #EEF2FF */
+    --accent-foreground: 30 58 138; /* Blue #1E3A8A */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 221 83 53; /* Light purple #DDD6FE */
+    --input: 221 83 53; /* Light purple #DDD6FE */
+    --ring: 139 92 246; /* Purple #8B5CF6 */
 
     --radius: 0.5rem;
 
